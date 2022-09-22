@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit';
+}
+
+.card{
+    max-width: 300px;
+    height: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 5%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+
+}
+
+.card img{
+    width: 267px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+
+.card h3{
+    color: white;
+    font-style: normal;
+    margin-right: auto;
+    margin-bottom: 15px;
+
+}
+
+.card p{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.sv{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    margin-bottom: 15px;
+}
+
+.sv p{
+    font-size: 15px;
+}
+
+.sv h3{
+    color: #00fff8;
+}
+
+.avatar{
+    display: flex;
+    width: 100%;
+}
+
+.avatar img{
+    width: 35px;
+    border: 1px solid hsl(215, 32%, 27%);
+    border-radius: 50%;
+    margin-bottom: auto;
+}
+
+.avatar p{
+    font-size: 15px;
+    margin: auto 10px;
+}
+
+.avatar span{
+    color: white;
+    font-size: 15px;
+}
+
