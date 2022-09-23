@@ -21,7 +21,12 @@ body{
     padding: 15px;
     border-radius: 10px;
     background-color: hsl(216, 50%, 16%);
+    transition: transform 0.3s;
 
+}
+
+.card:hover{
+    transform: scale(1.1);
 }
 
 .card img{
